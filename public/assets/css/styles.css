@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #00c4cc;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.notes-list {
+    width: 40%;
+}
+
+.note-editor {
+    width: 60%;
+}
+
+button {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: #00c4cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
